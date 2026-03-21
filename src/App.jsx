@@ -1,14 +1,15 @@
-import { Routes, Route } from 'react-router'
+import { Container } from 'react-bootstrap'
 import { Cover } from './views/Cover'
-import { Container } from 'react-bootstrap';
+import { About } from './views/About'
+import { Contact } from './views/Contact'
 import './App.css'
 
 function App() {
   return (
     <Container>
-      <Routes>
-        <Route index element={<Cover />} />
-      </Routes>
+      <Cover />
+      <About />
+      <Contact />
     </Container>
   );
 }

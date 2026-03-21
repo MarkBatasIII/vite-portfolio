@@ -5,7 +5,7 @@ import './Cover.css'
 
 export function Cover() {
     return (
-        <div className='bg-primary'>
+        <div className='vh-100 bg-primary'>
             <Row>
                 <Col sm={12} md={6}>
                     <div className='d-flex flex-column justify-content-around text-center h-100'>
