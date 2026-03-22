@@ -1,6 +1,7 @@
 import { Container } from 'react-bootstrap'
 import { Header } from './views/header/Header'
 import { About } from './views/about/About'
+import { Specialization } from './views/specialization/Specialization'
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <Container>
       <Header />
       <About />
+      <Specialization />
     </Container>
   );
 }

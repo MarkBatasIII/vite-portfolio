@@ -1,12 +1,11 @@
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import markImg02 from '../../images/mark_img_02.png'
 import './About.css'
 
 export function About() {
     return (
-        <div className='container-flex'>
+        <div className='container-flex h-25'>
             <Row>
                 <Col sm={12} md={6}>
                     <div className='d-flex flex-column justify-content-center h-100'>

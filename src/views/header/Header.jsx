@@ -1,5 +1,5 @@
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import markImg01 from '../../images/mark_img_01.png'
 import './Header.css'
