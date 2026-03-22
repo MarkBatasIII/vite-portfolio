@@ -1,15 +1,13 @@
 import { Container } from 'react-bootstrap'
-import { Cover } from './views/Cover'
-import { About } from './views/About'
-import { Contact } from './views/Contact'
+import { Header } from './views/header/Header'
+import { About } from './views/about/About'
 import './App.css'
 
 function App() {
   return (
     <Container>
-      <Cover />
+      <Header />
       <About />
-      <Contact />
     </Container>
   );
 }
