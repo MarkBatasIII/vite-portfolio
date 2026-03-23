@@ -2,25 +2,23 @@ import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import ohImg01 from '../../images/oh_img_01.png'
-import ohImg02 from '../../images/oh_img_02.png'
-import ohImg03 from '../../images/oh_img_03.png'
-import ohImg04 from '../../images/oh_img_04.png'
+import payrollImg01 from '../../images/payroll_img_01.png'
+import payrollImg02 from '../../images/payroll_img_02.png'
+import payrollImg03 from '../../images/payroll_img_03.png'
 import './Gallery.css'
 
-export function OHGallery() {
+export function PayrollGallery() {
     const imageList = [
-        ohImg01,
-        ohImg02,
-        ohImg03,
-        ohImg04
+        payrollImg01,
+        payrollImg02,
+        payrollImg03,
     ];
 
     return (
         <Row>
-            <h2>OH Snap Website</h2>
+            <h2>Payroll</h2>
             {imageList.map((imgSrc, index) => (
-                <Col key={index} sm={12} md={6} lg={3} className='mb-4'>
+                <Col key={index} sm={12} md={4} className='mb-4'>
                     <Card>
                         <Card.Body>
                             <Image

@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button'
 import hiringImg01 from '../../images/hiring_img_01.png'
 import { Gallery } from './Gallery'
 
-export function MyProject() {
+export function Project() {
     return (
         <>
             <div className='container-flex'>
