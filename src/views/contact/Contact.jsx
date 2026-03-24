@@ -19,9 +19,38 @@ export function Contact() {
                         Email <br />
                         marksalvador.batasiii@gmail.com
                     </p>
+                    <div className="d-flex gap-4 mt-3">
+                        <a
+                            href="https://github.com/MarkBatasIII"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-dark"
+                            title="Visit my GitHub"
+                        >
+                            <i className="fab fa-github fa-2x"></i>
+                        </a>
+                        <a
+                            href="https://www.facebook.com/markbatasiii/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: '#1877F2' }}
+                            title="Connect on Facebook"
+                        >
+                            <i className="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/markbatasiii/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: '#0A66C2' }}
+                            title="View my LinkedIn"
+                        >
+                            <i className="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
                 </Col>
                 <Col sm={12} md={6}>
-                    <Image src={MarkImg03} alt='Mark Profile Photo' fluid rounded />
+                    <Image src={MarkImg03} alt='Mark Contact Photo' fluid rounded />
                 </Col>
                 <Col sm={12}>
                     <h2>Send me an email</h2>
