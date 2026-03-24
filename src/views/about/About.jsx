@@ -6,7 +6,7 @@ export function About() {
     return (
         <div className='container-flex'>
             <Row className='test'>
-                <Col sm={12} md={6} className='d-flex flex-column justify-content-center'>
+                <Col sm={12} lg={6} className='d-flex flex-column justify-content-center'>
                     <h2>About Me</h2>
                     <p>
                         31 | Web Developer | Designer | Pet Lover
@@ -45,8 +45,8 @@ export function About() {
                         skills with my creative side.
                     </p>
                 </Col>
-                <Col sm={12} md={6} className='d-flex justify-content-center align-items-center'>
-                    <Image src={markImg02} alt='Mark About Photo' fluid roundedCircle />
+                <Col sm={12} lg={6} className='d-flex justify-content-center align-items-center'>
+                    <Image className='bg-primary' src={markImg02} alt='Mark About Photo' fluid roundedCircle />
                 </Col>
             </Row>
         </div>
