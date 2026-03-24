@@ -53,7 +53,6 @@ export function Contact() {
                     <Image src={MarkImg03} alt='Mark Contact Photo' fluid rounded />
                 </Col>
                 <Col sm={12}>
-                    <h2>Send me an email</h2>
                     <Email />
                 </Col>
             </Row>
