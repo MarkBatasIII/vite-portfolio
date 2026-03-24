@@ -4,6 +4,7 @@ import { About } from './views/about/About'
 import { Specialization } from './views/specialization/Specialization'
 import { Project } from './views/project/Project'
 import { Tool } from './views/tool/Tool'
+import { Contact } from './views/contact/Contact'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Specialization />
       <Tool />
       <Project />
+      <Contact />
     </Container>
   );
 }

@@ -1,7 +1,4 @@
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
-import Button from 'react-bootstrap/Button'
+import { Row, Col, Image, Button } from 'react-bootstrap';
 import hiringImg01 from '../../images/hiring_img_01.png'
 import { Gallery } from './Gallery'
 

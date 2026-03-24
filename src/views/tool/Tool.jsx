@@ -34,7 +34,7 @@ export function Tool() {
         <div className="marquee-container">
             <div className="marquee-content">
                 {displayBrands.map((brand, index) => {
-                    // Determine the source: Local or API
+
                     const imageSrc = brand.localImage
                         ? brand.localImage
                         : `https://img.logo.dev/${brand.domain}?token=pk_T4QZZhUrSOehTYNwMUym6Q`;

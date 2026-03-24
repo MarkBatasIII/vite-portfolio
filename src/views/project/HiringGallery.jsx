@@ -1,7 +1,4 @@
-import Card from 'react-bootstrap/Card'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
+import { Row, Col, Image, Card } from 'react-bootstrap';
 import hiringImg02 from '../../images/hiring_img_02.png'
 import hiringImg03 from '../../images/hiring_img_03.png'
 import hiringImg04 from '../../images/hiring_img_04.png'
@@ -24,7 +21,7 @@ export function HiringGallery() {
         <Row>
             <h2>Hiring</h2>
             {imageList.map((imgSrc, index) => (
-                <Col key={index} sm={12} md={6} lg={4} className='mb-4'>
+                <Col key={index} sm={12} md={6} lg={4} className='mt-4'>
                     <Card>
                         <Card.Body>
                             <Image
