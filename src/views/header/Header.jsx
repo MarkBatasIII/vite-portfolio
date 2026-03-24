@@ -1,4 +1,5 @@
 import { Row, Col, Image, Button } from 'react-bootstrap'
+
 import markImg01 from '../../images/mark_img_01.png'
 
 export function Header() {
@@ -21,7 +22,7 @@ export function Header() {
                         Take a look around, and feel free to reach out if you'd like to chat about tech
                         or a new idea.
                     </p>
-                    <Button type="button">Learn More</Button>
+                    <Button href="#project">Explore</Button>
                 </Col>
             </Row>
         </div>

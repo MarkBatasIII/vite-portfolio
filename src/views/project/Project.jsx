@@ -26,7 +26,7 @@ export function Project() {
                             Explore these projects to see how I translate technical challenges into clean,
                             user-friendly digital solutions.
                         </p>
-                        <Button type="button">Explore</Button>
+                        <Button href="#contact">Connect</Button>
                     </Col>
                 </Row>
             </div>
