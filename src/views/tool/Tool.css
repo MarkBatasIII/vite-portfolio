@@ -45,7 +45,6 @@
   color: #555;
 }
 
-/* --- MOBILE RESPONSIVENESS --- */
 @media (max-width: 767.98px) {
   .marquee-item img {
     height: 35px !important;

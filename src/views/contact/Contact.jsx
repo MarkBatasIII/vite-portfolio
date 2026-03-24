@@ -3,6 +3,7 @@ import { Row, Col, Image } from 'react-bootstrap'
 import { Email } from './Email'
 
 import MarkImg03 from '../../images/mark_img_03.png'
+import './Contact.css';
 
 export function Contact() {
     return (
@@ -21,7 +22,7 @@ export function Contact() {
                         Email <br />
                         marksalvador.batasiii@gmail.com
                     </p>
-                    <div className="d-flex gap-4 mt-3">
+                    <div className="social-links d-flex gap-4 mt-3">
                         <a
                             href="https://github.com/MarkBatasIII"
                             target="_blank"

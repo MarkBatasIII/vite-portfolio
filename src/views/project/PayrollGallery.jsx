@@ -31,9 +31,8 @@ export function PayrollGallery() {
         <Row>
             <h2>Payroll</h2>
             {imageList.map((imgSrc, index) => (
-                <Col sm={12} md={4} className='mt-4'>
+                <Col key={index} sm={12} md={4} className='mt-4'>
                     <GalleryCard
-                        key={index}
                         imgSrc={imgSrc}
                         index={index}
                         onClick={handleOpenModal}

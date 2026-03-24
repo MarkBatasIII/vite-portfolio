@@ -1,6 +1,7 @@
 import { HiringGallery } from "./HiringGallery"
 import { OHGallery } from "./OHGallery"
 import { PayrollGallery } from "./PayrollGallery"
+import './Gallery.css';
 
 export function Gallery() {
     return (

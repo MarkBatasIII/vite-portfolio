@@ -35,9 +35,8 @@ export function HiringGallery() {
         <Row>
             <h2>Hiring</h2>
             {imageList.map((imgSrc, index) => (
-                <Col sm={12} md={6} lg={4} className='mt-4'>
+                <Col key={index} sm={12} md={6} lg={4} className='mt-4' >
                     <GalleryCard
-                        key={index}
                         imgSrc={imgSrc}
                         index={index}
                         onClick={handleOpenModal}
@@ -49,6 +48,6 @@ export function HiringGallery() {
                 onHide={() => setShow(false)}
                 selectedImg={selectedImg}
             />
-        </Row>
+        </Row >
     );
 }
