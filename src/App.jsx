@@ -6,6 +6,7 @@ import { Project } from './views/project/Project'
 import { Tool } from './views/tool/Tool'
 import { Contact } from './views/contact/Contact'
 import { Navigation } from './views/navigation/Navigation'
+import { Footer } from './views/footer/Footer'
 import './App.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <div id="project"><Project /></div>
         <div id="contact"><Contact /></div>
       </Container>
+      <Footer />
     </>
   );
 }

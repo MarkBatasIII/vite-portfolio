@@ -5,3 +5,9 @@
         margin-bottom: 3rem;
     }
 }
+
+.img-contact {
+    width: 100%;
+    height: 30% !important;
+    object-fit: cover;
+}

@@ -4,8 +4,8 @@ import markImg02 from '../../images/mark_img_02.png'
 
 export function About() {
     return (
-        <div className='container-flex h-25'>
-            <Row>
+        <div className='container-flex'>
+            <Row className='test'>
                 <Col sm={12} md={6} className='d-flex flex-column justify-content-center'>
                     <h2>About Me</h2>
                     <p>
@@ -45,7 +45,7 @@ export function About() {
                         skills with my creative side.
                     </p>
                 </Col>
-                <Col sm={12} md={6}>
+                <Col sm={12} md={6} className='d-flex justify-content-center align-items-center'>
                     <Image src={markImg02} alt='Mark About Photo' fluid roundedCircle />
                 </Col>
             </Row>

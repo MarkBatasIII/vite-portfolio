@@ -45,10 +45,10 @@ export function Email() {
     };
 
     return (
-        <div className='mt-4'>
-            <h2>Send an email</h2>
-            <Form ref={form} onSubmit={sendEmail}>
-                <Form.Group className="mb-3" controlId="formName">
+        <div className='d-flex flex-column justify-content-between h-100'>
+            <h2>Work with Me</h2>
+            <Form ref={form} onSubmit={sendEmail} className="d-flex flex-column justify-content-between h-100">
+                <Form.Group controlId="formName">
                     <Form.Label>Full Name</Form.Label>
                     <Form.Control
                         type="text"
@@ -57,7 +57,7 @@ export function Email() {
                         required autoComplete="name" />
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formSubject">
+                <Form.Group controlId="formSubject">
                     <Form.Label>Subject</Form.Label>
                     <Form.Control
                         type="text"
@@ -67,7 +67,7 @@ export function Email() {
                         autoComplete="off" />
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formEmail">
+                <Form.Group controlId="formEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control
                         type="email"
@@ -77,11 +77,11 @@ export function Email() {
                         autoComplete="email" />
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formMessage">
+                <Form.Group controlId="formMessage">
                     <Form.Label>Message</Form.Label>
                     <Form.Control
                         as="textarea"
-                        rows={3}
+                        rows={4}
                         name="message"
                         required
                         autoComplete="off" />
@@ -90,7 +90,7 @@ export function Email() {
                 <input type="hidden" name="time" value={new Date().toLocaleString()} />
 
                 <Button
-                    className='w-100 mb-3'
+                    className='w-100'
                     type="submit"
                     disabled={isSending}
                 >
