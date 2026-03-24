@@ -4,3 +4,21 @@
     object-fit: cover;
     object-position: top;
 }
+
+.img-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.img-card:hover {
+    transform: translateY(-5px); /* Lifts the card up slightly */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Adds a soft shadow */
+}
+
+.img-gallery {
+    transition: opacity 0.3s ease;
+}
+
+.img-card:hover .img-gallery {
+    opacity: 0.9; /* Slight dimming effect on hover */
+}

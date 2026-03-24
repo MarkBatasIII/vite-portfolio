@@ -1,6 +1,6 @@
-import { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
-import { Form, Button, Modal } from 'react-bootstrap';
+import { useRef, useState } from 'react'
+import emailjs from '@emailjs/browser'
+import { Form, Button, Modal } from 'react-bootstrap'
 
 export function Email() {
     const form = useRef();

@@ -1,6 +1,8 @@
-import { Row, Col, Image, Button } from 'react-bootstrap';
-import hiringImg01 from '../../images/hiring_img_01.png'
+import { Row, Col, Image, Button } from 'react-bootstrap'
+
 import { Gallery } from './Gallery'
+
+import hiringImg01 from '../../images/hiring_img_01.png'
 
 export function Project() {
     return (

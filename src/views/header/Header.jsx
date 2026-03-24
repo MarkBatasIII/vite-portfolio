@@ -1,4 +1,4 @@
-import { Row, Col, Image, Button } from 'react-bootstrap';
+import { Row, Col, Image, Button } from 'react-bootstrap'
 import markImg01 from '../../images/mark_img_01.png'
 
 export function Header() {

@@ -1,4 +1,4 @@
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col, Image } from 'react-bootstrap'
 import { Email } from './Email'
 import MarkImg03 from '../../images/mark_img_03.png'
 

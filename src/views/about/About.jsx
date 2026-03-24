@@ -1,4 +1,4 @@
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col, Image } from 'react-bootstrap'
 import markImg02 from '../../images/mark_img_02.png'
 
 export function About() {
