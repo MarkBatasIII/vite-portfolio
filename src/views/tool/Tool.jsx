@@ -24,7 +24,9 @@ export function Tool() {
         { name: 'Django', domain: 'djangoproject.com' },
         { name: 'GitHub', domain: 'github.com' },
         { name: 'Office 365', domain: 'office.com' },
-        { name: 'Google Suite', domain: 'google.com' }
+        { name: 'Google Suite', domain: 'google.com' },
+        { name: 'Email JS', domain: 'emailjs.com' },
+        { name: 'Logo.dev', domain: 'logo.dev' }
     ];
 
     // Doubling the array for the infinite scroll effect

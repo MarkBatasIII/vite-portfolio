@@ -5,18 +5,22 @@ import { Specialization } from './views/specialization/Specialization'
 import { Project } from './views/project/Project'
 import { Tool } from './views/tool/Tool'
 import { Contact } from './views/contact/Contact'
+import { Navigation } from './views/navigation/Navigation'
 import './App.css'
 
 function App() {
   return (
-    <Container>
-      <Header />
-      <About />
-      <Specialization />
-      <Tool />
-      <Project />
-      <Contact />
-    </Container>
+    <>
+      <Navigation />
+      <Container>
+        <div id="home"><Header /></div>
+        <div id="about"><About /></div>
+        <div id="specialization"><Specialization /></div>
+        <div id="tool"><Tool /></div>
+        <div id="project"><Project /></div>
+        <div id="contact"><Contact /></div>
+      </Container>
+    </>
   );
 }
 
