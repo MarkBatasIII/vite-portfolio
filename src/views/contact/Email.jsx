@@ -20,10 +20,10 @@ export function Email() {
 
         try {
             await emailjs.sendForm(
-                'service_ipxybpx',
-                'template_sbacuij',
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
                 form.current,
-                '1VF9IoKNcMnYOl83K'
+                import.meta.env.VITE_EMAILJS_PUBLIC_KEY
             );
 
             setModalContent({

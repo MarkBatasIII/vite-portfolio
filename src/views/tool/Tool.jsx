@@ -5,6 +5,8 @@ import './Tool.css';
 
 export function Tool() {
 
+    const apiToken = import.meta.env.VITE_LOGODEV_API_KEY;
+
     const brands = [
         { name: 'Figma', domain: 'figma.com' },
         { name: 'Canva', domain: 'canva.com' },
@@ -40,7 +42,7 @@ export function Tool() {
 
                     const imageSrc = brand.localImage
                         ? brand.localImage
-                        : `https://img.logo.dev/${brand.domain}?token=pk_T4QZZhUrSOehTYNwMUym6Q`;
+                        : `https://img.logo.dev/${brand.domain}?token=${apiToken}`;
 
                     return (
                         <div className="marquee-item" key={index}>
